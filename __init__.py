@@ -25,7 +25,7 @@ def Index():
 
 
 
-    return render_template('index2.html', products=data )
+    return render_template('index.html', products=data )
 
 
 
@@ -84,4 +84,4 @@ def update():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
